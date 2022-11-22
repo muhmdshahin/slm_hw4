@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56767D93-A81F-0CD2-6DA3-4139313435AA" name="ORDER">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:33:49 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order id" id="F53380D1-3CD0-7B90-DF10-46EE6C118947">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:33:58 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="55BD856F-1CB6-B526-1B2F-21C539692DEE">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:34:01 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item id purchased" id="4357171D-6A60-8075-3E3A-593C6E288225">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:34:04 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number of units purchased" id="49EC2D70-81A6-F14F-BCB1-5DE1205F9EDD">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:34:11 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team name" id="414FBA75-EF2D-0B15-EC58-DDEEBDFFD6BA">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:34:21 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email of buyer" id="2D749E78-527A-2B22-140E-BC22D25B8082">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:34:24 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0DB6E09-1B08-80DD-75F1-BB8054050851" name="ORDER PK">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:35:17 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F53380D1-3CD0-7B90-DF10-46EE6C118947</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

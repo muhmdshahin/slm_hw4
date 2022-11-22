@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04AD65AB-E5B5-1DF7-8F91-F1E050A28BDB" name="INDIVIDUAL CUSTOMER">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:24:38 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="23518612-AC02-A4F3-8B5F-A8A4BA3E1AE8">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:25:03 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer first name" id="DF608FEF-7049-92CF-318D-FE0547D84975">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:25:19 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer last name" id="30B2C044-74C9-D819-1A20-74355F9CE81B">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:25:33 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer street name" id="FE063309-061F-85D4-6C5C-A7F61F9177E4">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:25:44 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer building number" id="1B915AE2-4F9A-A956-E2A8-D11F85BF6079">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:26:00 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer flat number" id="E71ECB7A-2001-DF06-163E-F28B7E783D1C">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:26:18 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer municipality name" id="3D1FCBD5-6110-37B7-24A5-C740C01E2AF9">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:26:33 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer postal code" id="B32C3E7C-3105-ECA7-78DD-46984C71E0F9">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:26:53 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer phone number" id="6C5A68CB-43E2-F11F-C8FB-6347881647D5">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:27:08 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current balance" id="0A0C71D1-BF8E-5798-C42D-C001E408BFCB">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:27:26 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team to which he/she belongs to" id="A030FACC-6E7C-EFF6-F9B5-1BF76B496AB5">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:27:34 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="representative email" id="E2188080-CDE5-72AF-FE88-20520F90A480">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:50:25 UTC</createdTime>
+<generatorID>DFE774E8-19BC-12D2-22BD-0E6DF4D8CF20</generatorID>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<referedAttribute>2D21E8F1-AC30-BF15-1A86-BCE4454C8AEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF5E7991-96A7-F912-C559-6A8948AC63E0" name="INDIVIDUAL CUSTOMER PK">
+<createdBy>muhmd</createdBy>
+<createdTime>2022-11-22 17:25:15 UTC</createdTime>
+<ownerDesignName>datamodeller1</ownerDesignName>
+<engineerTo>
+<item key="C65B7DA6-E5DC-8908-5F2A-9F6D9B8E2AD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23518612-AC02-A4F3-8B5F-A8A4BA3E1AE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
